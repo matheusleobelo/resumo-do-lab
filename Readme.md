@@ -78,3 +78,46 @@ O **Microsoft Azure** é uma plataforma de **computação em nuvem** que oferece
 
 > A **Azure** se baseia em pilares como **disponibilidade, escalabilidade, segurança e confiabilidade** para manter seus serviços estáveis.
 > Seus níveis de **SLA** mostram o compromisso da Microsoft em manter os sistemas **sempre ativos**, com falhas que podem variar de **horas por ano (99%)** a **apenas minutos (99,999%)**.
+
+---
+
+### ☁️ **Modelos de Serviço na Nuvem (Entrega 3)**
+
+A Azure oferece diferentes **níveis de serviço**, que variam conforme o quanto o **cliente gerencia** e o quanto a **Microsoft gerencia**.
+
+---
+
+### 🖥️ **IaaS – Infrastructure as a Service (Infraestrutura como Serviço)**
+
+* Fornece **recursos básicos de TI**, como máquinas virtuais, redes e armazenamento.
+* O usuário é responsável por instalar e gerenciar o sistema operacional e os aplicativos.
+* 💡 *É como alugar um servidor pronto para configurar do seu jeito.*
+* **Exemplo na Azure:** *Azure Virtual Machines, Azure Storage, Azure Virtual Network.*
+
+---
+
+### ⚙️ **PaaS – Platform as a Service (Plataforma como Serviço)**
+
+* Oferece um ambiente completo para **criar, testar e implantar aplicações** sem se preocupar com a infraestrutura.
+* A Microsoft cuida dos servidores, do sistema e das atualizações.
+* 💡 *Ideal para desenvolvedores que querem focar apenas no código.*
+* **Exemplo na Azure:** *Azure App Service, Azure SQL Database.*
+
+---
+
+### 💻 **SaaS – Software as a Service (Software como Serviço)**
+
+* Fornece **aplicativos prontos** acessados via internet (sem necessidade de instalação).
+* O provedor gerencia tudo: infraestrutura, plataforma e o próprio software.
+* 💡 *É só usar — igual ao Outlook, Teams ou Office 365.*
+* **Exemplo na Azure:** *Microsoft 365, Dynamics 365.*
+
+---
+
+### ✅ **Resumo Rápido**
+
+| Modelo   | Gerenciado pelo cliente          | Gerenciado pela Microsoft   | Exemplo                |
+| -------- | -------------------------------- | --------------------------- | ---------------------- |
+| **IaaS** | Sistema operacional, aplicativos | Hardware e virtualização    | Azure Virtual Machines |
+| **PaaS** | Aplicação e dados                | Infraestrutura e plataforma | Azure App Service      |
+| **SaaS** | Apenas uso do app                | Todo o restante             | Microsoft 365          |
